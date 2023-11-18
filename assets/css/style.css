@@ -681,6 +681,58 @@ section {
   }
 }
 
+.breadcrumbs_2 {
+  padding: 20px 0;
+  background-color: #f1f6fe;
+  min-height: 40px;
+}
+
+.breadcrumbs h2 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs h2 {
+    margin: 0 0 10px 0;
+  }
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li+li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #6c757d;
+  content: "/";
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+
+  .breadcrumbs ol {
+    display: block;
+  }
+
+  .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
+
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
@@ -1803,3 +1855,57 @@ section {
     padding: 2px 0;
   }
 }
+
+/* ELECTRICIAN */
+
+#b2{
+  background-color:#106eea ;
+  color: #fff;
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 100px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.discount{
+  display: flex;
+}
+#icon{
+    color: #106eea#fefefe;
+    font-size: 24px;
+    margin-left: 50px;
+    padding-top: 0px;
+  }
+.discount h6{
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.tab_list{
+  padding: 100px;
+}
+#tab1,#tab2,#tab3,#tab4{
+  display: flex;
+  letter-spacing: 1px;
+  
+}
+ .bi .bi,h6{
+  padding-left: 15px;
+  padding-top: 1px;
+}
+#tab1 .bi .bi{
+  background-color: #106eea;
+}
+#tab2,#tab3,#tab4{
+  padding: 25px;
+}
+#tab1{
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+
+
+
